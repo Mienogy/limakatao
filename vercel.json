@@ -1,4 +1,7 @@
 {
+    "outputDirectory": "public",
+    "installCommand": "composer install && npm install",
+    "buildCommand": "npm run build",
     "functions": {
         "api/index.php": {
             "runtime": "vercel-php@0.7.3"
